@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E7BCA7E1F4D6AE80006DACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BCA7D1F4D6AE80006DACA /* main.m */; };
+		7E7BCA811F4D6AE80006DACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BCA801F4D6AE80006DACA /* AppDelegate.m */; };
+		7E7BCA841F4D6AE80006DACA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BCA831F4D6AE80006DACA /* ViewController.m */; };
+		7E7BCA871F4D6AE80006DACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7BCA851F4D6AE80006DACA /* Main.storyboard */; };
+		7E7BCA891F4D6AE80006DACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7BCA881F4D6AE80006DACA /* Assets.xcassets */; };
+		7E7BCA971F4D6AE80006DACA /* ZDL_CustomTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BCA961F4D6AE80006DACA /* ZDL_CustomTableViewTests.m */; };
+		7E7BCAA21F4D6AE80006DACA /* ZDL_CustomTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BCAA11F4D6AE80006DACA /* ZDL_CustomTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7BCA931F4D6AE80006DACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7BCA711F4D6AE70006DACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7BCA781F4D6AE70006DACA;
+			remoteInfo = ZDL_CustomTableView;
+		};
+		7E7BCA9E1F4D6AE80006DACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7BCA711F4D6AE70006DACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7BCA781F4D6AE70006DACA;
+			remoteInfo = ZDL_CustomTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E7BCA791F4D6AE80006DACA /* ZDL_CustomTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDL_CustomTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7BCA7D1F4D6AE80006DACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E7BCA7F1F4D6AE80006DACA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E7BCA801F4D6AE80006DACA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E7BCA821F4D6AE80006DACA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E7BCA831F4D6AE80006DACA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E7BCA861F4D6AE80006DACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E7BCA881F4D6AE80006DACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E7BCA8D1F4D6AE80006DACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7BCA921F4D6AE80006DACA /* ZDL_CustomTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDL_CustomTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7BCA961F4D6AE80006DACA /* ZDL_CustomTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDL_CustomTableViewTests.m; sourceTree = "<group>"; };
+		7E7BCA981F4D6AE80006DACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7BCA9D1F4D6AE80006DACA /* ZDL_CustomTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDL_CustomTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7BCAA11F4D6AE80006DACA /* ZDL_CustomTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDL_CustomTableViewUITests.m; sourceTree = "<group>"; };
+		7E7BCAA31F4D6AE80006DACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7BCA761F4D6AE70006DACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7BCA8F1F4D6AE80006DACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7BCA9A1F4D6AE80006DACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E7BCA701F4D6AE70006DACA = {
+			isa = PBXGroup;
+			children = (
+				7E7BCA7B1F4D6AE80006DACA /* ZDL_CustomTableView */,
+				7E7BCA951F4D6AE80006DACA /* ZDL_CustomTableViewTests */,
+				7E7BCAA01F4D6AE80006DACA /* ZDL_CustomTableViewUITests */,
+				7E7BCA7A1F4D6AE80006DACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7BCA7A1F4D6AE80006DACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BCA791F4D6AE80006DACA /* ZDL_CustomTableView.app */,
+				7E7BCA921F4D6AE80006DACA /* ZDL_CustomTableViewTests.xctest */,
+				7E7BCA9D1F4D6AE80006DACA /* ZDL_CustomTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7BCA7B1F4D6AE80006DACA /* ZDL_CustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BCA7F1F4D6AE80006DACA /* AppDelegate.h */,
+				7E7BCA801F4D6AE80006DACA /* AppDelegate.m */,
+				7E7BCA821F4D6AE80006DACA /* ViewController.h */,
+				7E7BCA831F4D6AE80006DACA /* ViewController.m */,
+				7E7BCA851F4D6AE80006DACA /* Main.storyboard */,
+				7E7BCA881F4D6AE80006DACA /* Assets.xcassets */,
+				7E7BCA8D1F4D6AE80006DACA /* Info.plist */,
+				7E7BCA7C1F4D6AE80006DACA /* Supporting Files */,
+			);
+			path = ZDL_CustomTableView;
+			sourceTree = "<group>";
+		};
+		7E7BCA7C1F4D6AE80006DACA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BCA7D1F4D6AE80006DACA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E7BCA951F4D6AE80006DACA /* ZDL_CustomTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BCA961F4D6AE80006DACA /* ZDL_CustomTableViewTests.m */,
+				7E7BCA981F4D6AE80006DACA /* Info.plist */,
+			);
+			path = ZDL_CustomTableViewTests;
+			sourceTree = "<group>";
+		};
+		7E7BCAA01F4D6AE80006DACA /* ZDL_CustomTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7BCAA11F4D6AE80006DACA /* ZDL_CustomTableViewUITests.m */,
+				7E7BCAA31F4D6AE80006DACA /* Info.plist */,
+			);
+			path = ZDL_CustomTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7BCA781F4D6AE70006DACA /* ZDL_CustomTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7BCAA61F4D6AE80006DACA /* Build configuration list for PBXNativeTarget "ZDL_CustomTableView" */;
+			buildPhases = (
+				7E7BCA751F4D6AE70006DACA /* Sources */,
+				7E7BCA761F4D6AE70006DACA /* Frameworks */,
+				7E7BCA771F4D6AE70006DACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDL_CustomTableView;
+			productName = ZDL_CustomTableView;
+			productReference = 7E7BCA791F4D6AE80006DACA /* ZDL_CustomTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7BCA911F4D6AE80006DACA /* ZDL_CustomTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7BCAA91F4D6AE80006DACA /* Build configuration list for PBXNativeTarget "ZDL_CustomTableViewTests" */;
+			buildPhases = (
+				7E7BCA8E1F4D6AE80006DACA /* Sources */,
+				7E7BCA8F1F4D6AE80006DACA /* Frameworks */,
+				7E7BCA901F4D6AE80006DACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7BCA941F4D6AE80006DACA /* PBXTargetDependency */,
+			);
+			name = ZDL_CustomTableViewTests;
+			productName = ZDL_CustomTableViewTests;
+			productReference = 7E7BCA921F4D6AE80006DACA /* ZDL_CustomTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E7BCA9C1F4D6AE80006DACA /* ZDL_CustomTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7BCAAC1F4D6AE80006DACA /* Build configuration list for PBXNativeTarget "ZDL_CustomTableViewUITests" */;
+			buildPhases = (
+				7E7BCA991F4D6AE80006DACA /* Sources */,
+				7E7BCA9A1F4D6AE80006DACA /* Frameworks */,
+				7E7BCA9B1F4D6AE80006DACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7BCA9F1F4D6AE80006DACA /* PBXTargetDependency */,
+			);
+			name = ZDL_CustomTableViewUITests;
+			productName = ZDL_CustomTableViewUITests;
+			productReference = 7E7BCA9D1F4D6AE80006DACA /* ZDL_CustomTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7BCA711F4D6AE70006DACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "张大亮";
+				TargetAttributes = {
+					7E7BCA781F4D6AE70006DACA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					7E7BCA911F4D6AE80006DACA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7BCA781F4D6AE70006DACA;
+					};
+					7E7BCA9C1F4D6AE80006DACA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E7BCA781F4D6AE70006DACA;
+					};
+				};
+			};
+			buildConfigurationList = 7E7BCA741F4D6AE70006DACA /* Build configuration list for PBXProject "ZDL_CustomTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7BCA701F4D6AE70006DACA;
+			productRefGroup = 7E7BCA7A1F4D6AE80006DACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7BCA781F4D6AE70006DACA /* ZDL_CustomTableView */,
+				7E7BCA911F4D6AE80006DACA /* ZDL_CustomTableViewTests */,
+				7E7BCA9C1F4D6AE80006DACA /* ZDL_CustomTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7BCA771F4D6AE70006DACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7BCA891F4D6AE80006DACA /* Assets.xcassets in Resources */,
+				7E7BCA871F4D6AE80006DACA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7BCA901F4D6AE80006DACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7BCA9B1F4D6AE80006DACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7BCA751F4D6AE70006DACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7BCA841F4D6AE80006DACA /* ViewController.m in Sources */,
+				7E7BCA811F4D6AE80006DACA /* AppDelegate.m in Sources */,
+				7E7BCA7E1F4D6AE80006DACA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7BCA8E1F4D6AE80006DACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7BCA971F4D6AE80006DACA /* ZDL_CustomTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7BCA991F4D6AE80006DACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7BCAA21F4D6AE80006DACA /* ZDL_CustomTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7BCA941F4D6AE80006DACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7BCA781F4D6AE70006DACA /* ZDL_CustomTableView */;
+			targetProxy = 7E7BCA931F4D6AE80006DACA /* PBXContainerItemProxy */;
+		};
+		7E7BCA9F1F4D6AE80006DACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7BCA781F4D6AE70006DACA /* ZDL_CustomTableView */;
+			targetProxy = 7E7BCA9E1F4D6AE80006DACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E7BCA851F4D6AE80006DACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7BCA861F4D6AE80006DACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E7BCAA41F4D6AE80006DACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E7BCAA51F4D6AE80006DACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E7BCAA71F4D6AE80006DACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDL_CustomTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangdaliang.ZDL-CustomTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E7BCAA81F4D6AE80006DACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDL_CustomTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangdaliang.ZDL-CustomTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E7BCAAA1F4D6AE80006DACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDL_CustomTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangdaliang.ZDL-CustomTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDL_CustomTableView.app/ZDL_CustomTableView";
+			};
+			name = Debug;
+		};
+		7E7BCAAB1F4D6AE80006DACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDL_CustomTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangdaliang.ZDL-CustomTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDL_CustomTableView.app/ZDL_CustomTableView";
+			};
+			name = Release;
+		};
+		7E7BCAAD1F4D6AE80006DACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDL_CustomTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangdaliang.ZDL-CustomTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZDL_CustomTableView;
+			};
+			name = Debug;
+		};
+		7E7BCAAE1F4D6AE80006DACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDL_CustomTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangdaliang.ZDL-CustomTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZDL_CustomTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E7BCA741F4D6AE70006DACA /* Build configuration list for PBXProject "ZDL_CustomTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7BCAA41F4D6AE80006DACA /* Debug */,
+				7E7BCAA51F4D6AE80006DACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7BCAA61F4D6AE80006DACA /* Build configuration list for PBXNativeTarget "ZDL_CustomTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7BCAA71F4D6AE80006DACA /* Debug */,
+				7E7BCAA81F4D6AE80006DACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E7BCAA91F4D6AE80006DACA /* Build configuration list for PBXNativeTarget "ZDL_CustomTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7BCAAA1F4D6AE80006DACA /* Debug */,
+				7E7BCAAB1F4D6AE80006DACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E7BCAAC1F4D6AE80006DACA /* Build configuration list for PBXNativeTarget "ZDL_CustomTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7BCAAD1F4D6AE80006DACA /* Debug */,
+				7E7BCAAE1F4D6AE80006DACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7BCA711F4D6AE70006DACA /* Project object */;
+}
